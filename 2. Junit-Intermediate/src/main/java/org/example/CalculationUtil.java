@@ -22,4 +22,9 @@ public class CalculationUtil {
 
         return (a%2==0);
     }
+
+    public boolean isOdd(int a)
+    {
+        return a % 2 != 0;
+    }
 }
