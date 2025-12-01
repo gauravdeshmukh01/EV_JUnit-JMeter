@@ -1,0 +1,17 @@
+***** influx.DB download steps and execution *****
+
+
+influxdata.com/downloads/
+
+introduction > install infux db on left menu
+
+wget https://download.influxdata.com/influxdb/releases/influxdb-1.11.8-windows-amd64.zip -UseBasicParsing -OutFile influxdb-1.11.8_windows_amd64.zip
+
+open PowerShell---Run as administrator
+
+paste the command -> enter 
+Run Influxd
+Run Influx
+jmeterInfluxDb
+
+create user Sudha with password '1234'

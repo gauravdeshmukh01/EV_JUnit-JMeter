@@ -1,0 +1,49 @@
+line 3 column 16 - Warning: unknown attribute "itemtype"
+line 3 column 16 - Warning: unknown attribute "itemscope"
+line 3 column 85 - Warning: <meta> lacks "content" attribute
+line 3 column 107 - Warning: <script> lacks "type" attribute
+line 3 column 357 - Warning: <style> lacks "type" attribute
+line 3 column 17,807 - Warning: <script> lacks "type" attribute
+line 3 column 18,553 - Warning: <script> lacks "type" attribute
+line 3 column 19,147 - Warning: unknown attribute "itemprop"
+line 3 column 19,270 - Warning: unknown attribute "itemprop"
+line 3 column 19,976 - Warning: unknown attribute "property"
+line 3 column 20,091 - Warning: unknown attribute "property"
+line 3 column 20,315 - Warning: unknown attribute "property"
+line 3 column 20,364 - Warning: unknown attribute "property"
+line 3 column 20,414 - Warning: unknown attribute "property"
+line 3 column 20,534 - Warning: unknown attribute "property"
+line 3 column 21,147 - Warning: unknown attribute "property"
+line 3 column 21,462 - Warning: <script> lacks "type" attribute
+line 3 column 21,886 - Warning: <script> lacks "type" attribute
+line 3 column 23,037 - Warning: <link> isn't allowed in <noscript> elements
+line 3 column 23,117 - Warning: trimming empty <noscript>
+line 3 column 23,128 - Warning: </head> isn't allowed in <body> elements
+line 3 column 23,139 - Warning: <body> isn't allowed in <body> elements
+line 3 column 24,122 - Error: <header> is not recognized!
+line 3 column 24,122 - Warning: discarding unexpected <header>
+line 3 column 24,546 - Warning: trimming empty <div>
+line 3 column 24,556 - Error: <nav> is not recognized!
+line 3 column 24,556 - Warning: discarding unexpected <nav>
+line 3 column 24,723 - Warning: unknown attribute "itemprop"
+line 3 column 25,523 - Warning: trimming empty <span>
+line 3 column 25,534 - Error: <nav> is not recognized!
+line 3 column 25,534 - Warning: discarding unexpected <nav>
+line 3 column 26,278 - Warning: Warning: unescaped & which should be written as &amp;
+line 3 column 26,544 - Warning: Warning: unescaped & which should be written as &amp;
+line 3 column 26,562 - Warning: Warning: unescaped & which should be written as &amp;
+line 3 column 26,997 - Warning: discarding unexpected </nav>
+line 3 column 27,232 - Warning: trimming empty <span>
+line 3 column 27,245 - Error: <nav> is not recognized!
+line 3 column 27,245 - Warning: discarding unexpected <nav>
+line 3 column 29,118 - Warning: discarding unexpected </nav>
+line 3 column 29,334 - Warning: trimming empty <span>
+line 3 column 29,345 - Error: <nav> is not recognized!
+line 3 column 29,345 - Warning: discarding unexpected <nav>
+line 3 column 32,929 - Warning: discarding unexpected </nav>
+line 3 column 33,151 - Warning: trimming empty <span>
+InputStream: Doctype given is ""
+InputStream: Document content looks like HTML 4.01 Transitional
+301 warnings, 20 errors were found!
+This document has errors that must be fixed before
+using HTML Tidy to generate a tidied up version.

@@ -1,0 +1,15 @@
+Post processor 
+	JSON Extractor 
+
+JavaScript Object Notation
+-- Lightweight format for storing & transporting data 
+-- Most of the REST API uses JSON as exchange data format (REST API receive JSON Response from server)
+
+Extractor:
+-- used to extract data from JSON Response 
+-- stores the extracted data from JSON response in variables
+-- those variables are used in subsequent requests
+
+website-> reqres.in 
+	GET method JSON data
+

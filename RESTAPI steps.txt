@@ -1,0 +1,33 @@
+1. FOR GET Request 
+
+do steps done in jmx, go on website -> reqres.in
+use get method from there.
+
+
+2. FOR POST Request 
+
+use this free api in http header manager (jmeter), create using get free api from reqres.in  
+x-api-key: reqres-free-v1
+
+
+https://reqres.in/api/users
+
+
+{
+    "name": "morpheus",
+    "job": "leader"
+}
+
+3. PUT Request 
+
+https://reqres.in/api/users/2
+
+{
+    "name": "morpheus",
+    "job": "zion resident"
+}
+
+4. DELETE Request
+
+https://reqres.in/api/users/2
+

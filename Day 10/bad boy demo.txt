@@ -1,0 +1,5 @@
+1.in bad boy type website name 
+	ex: Wikipedia.org
+
+2. perform some activities by starting recording and then stop recording
+3. file -> export to jmeter -> open in jmeter

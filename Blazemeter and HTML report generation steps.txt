@@ -1,0 +1,69 @@
+install blazemeter extension
+go start it
+surf websites 4 to 5
+open extension and stop it, save it and copy downloaded one into our main folder
+open in apache meter
+ add view result tree start
+
+go to meter plugin jmeter org
+under install install and follow steps
+then restart jmeter and in options we can we plugins 
+
+
+
+
+
+
+Wednesday --
+
+install mysql connector 8 jar download
+extract and copy jar file into lib of apache jmeter
+check in ext whether plugin is present( we have done this before)
+
+HTML Report Generation using non-GUI mode in JMeter:
+
+why we need non-GUI mode?
+
+JMeter requires more resources in GUI mode.
+
+GUI mode not suitable for heavy load testing, it will increase cost.
+
+Integration with 3rd party software like JIRA/CI CLI mode is useful.
+
+cmd : jmeter -? // for all - commands
+
+
+
+
+step 1: open jmeter bin folder path in cmd
+
+
+step 2: jmeter -n -t <location of jmeter file> -l <result file location>
+
+-n : non gui
+-t : test file
+-l : log file
+
+example:
+jmeter -n -t "C:\Users\gaura\OneDrive\Desktop\FINACLE TRAINING\JUnit & JMeter\JDBC_connection.jmx" -l "C:\Users\gaura\OneDrive\Desktop\FINACLE TRAINING\JUnit & JMeter\JDBCDBTestHTMLReport.csv"
+                               // need to create csv file
+
+
+step 3: 
+        jmeter -n -t "C:\Users\gaura\OneDrive\Desktop\FINACLE TRAINING\JUnit & JMeter\DBTest.jmx" -l "C:\Users\gaura\OneDrive\Desktop\FINACLE TRAINING\JUnit & JMeter\jdbctesthtmlreport2.csv" -e -o "C:\Users\gaura\OneDrive\Desktop\FINACLE TRAINING\JUnit & JMeter\JMeterReports\HTMLReports\index"
+
+				// no need to create csv file only folder and give name as index or kind of 
+
+-e : generate report after loading test results
+
+-o : report folder 
+
+
+step 4:  Generate HTML report from Output/ log file
+
+jmeter -g "C:\Users\gaura\OneDrive\Desktop\FINACLE TRAINING\JUnit & JMeter\jdbctesthtmlreport2.csv" -o "C:\Users\gaura\OneDrive\Desktop\FINACLE TRAINING\JUnit & JMeter\JMeterReports\HTMLReports\index2"
+ 
+
+
+
+

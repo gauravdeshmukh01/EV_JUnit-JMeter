@@ -1,0 +1,20 @@
+1. FTP PUT and GET Request 
+
+  in FileZilla, insert data from dlptest.com -> FTP test 
+	host -> user -> password
+	start 
+
+  for PUT method
+	create upload.txt file
+
+  for GET method 
+	make changes in generate file ex. insert some text
+
+
+2. Distributing Testing (Master-Slave)
+	
+	first know your ip using ipconfig ipv4
+	then in jmeter properties file -> vscode -> below remote host add ip 
+	create rmi key store windows batch file -> rmi - A - B - C - D - IN - yes
+	jmeter server windows batch file open it should be successful not failed to start server
+	in jmeter upper run -> remote start -> click on IP

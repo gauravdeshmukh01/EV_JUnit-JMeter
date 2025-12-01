@@ -1,0 +1,22 @@
+Functions and Variables in JMeter:
+
+Functions: any method that can populate a field in any other element of a test plan
+
+Syntax:
+ \${\_\_functionName}
+ \${\_\_functionName(var1,var2.....)}
+
+Variable:
+Syntax:
+ \${variableName}
+
+\--Case sensitive,
+\--camelCase
+
+${__log("Msg")}
+=======================================================
+
+In Jmeter, refer jmx file 
+
+tool -> function helper dialog -> for sample function generation 
+

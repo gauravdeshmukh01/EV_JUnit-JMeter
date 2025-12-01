@@ -1,0 +1,3 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,IdleTime,Connect
+1756817784652,1362,JDBC Request,200,OK,Thread Group 1-1,text,true,,66,0,1,2,null,1360,0,1309
+1756817784652,1370,JDBC Request,200,OK,Thread Group 2-1,text,true,,9,0,1,1,null,1369,0,1309
